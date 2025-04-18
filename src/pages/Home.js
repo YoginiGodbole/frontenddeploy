@@ -27,7 +27,7 @@ const Home = () => {
 
     const fetchProducts = async () => {
         try {
-            const url = "http://localhost:8080/products";
+            const url = "https://backenddeploy-tqch.onrender.com/products";
             const headers = {
                 headers: {
                     'authorization': localStorage.getItem('token')
